@@ -35,5 +35,6 @@ typedef enum{
 // Returns the value of a card at the given position
 - (MementoGameCard) valueForCardAtPosition:(MementoGamePosition)position;
 
+-(void) shuffle;
 
 @end

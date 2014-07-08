@@ -45,6 +45,14 @@
 {
     self.valueSideImageView.image = self.image;
     
+    CGContextRef context=  UIGraphicsGetCurrentContext();
+    [UIView beginAnimations:nil context:context];
+    
+    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self  cache:true];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationDuration:0.25];
+    [UIView commitAnimations];
+    
     self.coverSideImageView.hidden= !self.coverSideImageView.hidden;
     self.valueSideImageView.hidden= !self.coverSideImageView.hidden;
 }

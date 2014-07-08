@@ -69,7 +69,11 @@
                                 <rect key="frame" x="0.0" y="-5" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Memento" id="Kjc-HW-F2c">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="4e4-sT-bV5"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="4e4-sT-bV5">
+                                            <connections>
+                                                <action selector="restartGame:" destination="vXZ-lx-hvc" id="M8H-Iz-rLG"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>

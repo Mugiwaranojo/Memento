@@ -39,9 +39,16 @@
                           ];
     
     MementoGame * game = [[MementoGame alloc]init];
-    game.deck = baseSet; // TODO: shamble it!!!
-    
+    game.deck = baseSet;
+    [game shuffle];
     return game;
+}
+
+-(void) shuffle
+{
+    self.deck = [self.deck sortedArrayUsingComparator:^(id obj1, id obj2) {
+        return rand()%3-1;
+    }];
 }
 
 - (MementoGameCard)valueForCardAtPosition:(MementoGamePosition)position
@@ -51,20 +58,8 @@
 }
 
 
-- (int) indexOfCardAtPosition:(MementoGamePosition)postion
+- (int) indexOfCardAtPosition:(MementoGamePosition)position
 {
-    return 3 * postion.row + postion.column;
+    return 3 * position.row + position.column;
 }
-
 @end
-
-
-
-
-
-
-
-
-
-
-
