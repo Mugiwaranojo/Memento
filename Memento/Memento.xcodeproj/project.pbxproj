@@ -21,6 +21,8 @@
 		6AB6AA0A196ABC4100C8207C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB6A9EC196ABC4100C8207C /* UIKit.framework */; };
 		6AB6AA12196ABC4100C8207C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB6AA10196ABC4100C8207C /* InfoPlist.strings */; };
 		6AB6AA14196ABC4100C8207C /* MementoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB6AA13196ABC4100C8207C /* MementoTests.m */; };
+		6AB8CDD4196BEFAA00714DE9 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB8CDD1196BEFAA00714DE9 /* CardView.m */; };
+		6AB8CDD5196BEFAA00714DE9 /* MementoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB8CDD3196BEFAA00714DE9 /* MementoGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6AB6AA0F196ABC4100C8207C /* MementoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MementoTests-Info.plist"; sourceTree = "<group>"; };
 		6AB6AA11196ABC4100C8207C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AB6AA13196ABC4100C8207C /* MementoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoTests.m; sourceTree = "<group>"; };
+		6AB8CDD0196BEFAA00714DE9 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		6AB8CDD1196BEFAA00714DE9 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		6AB8CDD2196BEFAA00714DE9 /* MementoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoGame.h; sourceTree = "<group>"; };
+		6AB8CDD3196BEFAA00714DE9 /* MementoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		6AB6A9EE196ABC4100C8207C /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				6AB8CDD0196BEFAA00714DE9 /* CardView.h */,
+				6AB8CDD1196BEFAA00714DE9 /* CardView.m */,
+				6AB8CDD2196BEFAA00714DE9 /* MementoGame.h */,
+				6AB8CDD3196BEFAA00714DE9 /* MementoGame.m */,
 				6AB6A9F7196ABC4100C8207C /* AppDelegate.h */,
 				6AB6A9F8196ABC4100C8207C /* AppDelegate.m */,
 				6AB6A9FA196ABC4100C8207C /* Main.storyboard */,
@@ -251,6 +261,8 @@
 			files = (
 				6AB6A9FF196ABC4100C8207C /* ViewController.m in Sources */,
 				6AB6A9F9196ABC4100C8207C /* AppDelegate.m in Sources */,
+				6AB8CDD4196BEFAA00714DE9 /* CardView.m in Sources */,
+				6AB8CDD5196BEFAA00714DE9 /* MementoGame.m in Sources */,
 				6AB6A9F5196ABC4100C8207C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +468,7 @@
 				6AB6AA19196ABC4100C8207C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AB6AA1A196ABC4100C8207C /* Build configuration list for PBXNativeTarget "MementoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				6AB6AA1C196ABC4100C8207C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

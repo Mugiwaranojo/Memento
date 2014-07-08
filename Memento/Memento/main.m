@@ -2,8 +2,8 @@
 //  main.m
 //  Memento
 //
-//  Created by fitec on 07/07/2014.
-//  Copyright (c) 2014 Mugiwaranojo. All rights reserved.
+//  Created by Florian BUREL on 07/07/2014.
+//  Copyright (c) 2014 florian burel. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
